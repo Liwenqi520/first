@@ -1,0 +1,54 @@
+package defines
+
+const (
+	SESSION_USER_TOKENS               = APP_NAME + ":session:user_tokens:"
+	LOG                               = APP_NAME + ":logs:"
+	SESSION_TOKEN                     = APP_BASE_NAME + ":session:token:"
+	SESSION_USER_INFO                 = APP_BASE_NAME + ":session:user_info:"
+	FinallyData                       = APP_NAME + ":device_finally_data:"
+	FinallyDataExpireTime             = 3600 //缓存最后一次上报数据时间
+	DeviceRuleMetricTotal             = APP_NAME + ":device_rule_metric_total:"
+	UserLangData                      = APP_NAME + ":user_lang:"
+	UserLangDataExpireTime            = 3600 * 24 * 7
+	UserDeviceHeat                    = APP_NAME + ":user_device_heat:"
+	DeviceAbnormalCO2                 = APP_NAME + ":device_abnormal_co2:"
+	DeviceAbnormalWaterContent        = APP_NAME + ":device_abnormal_water_content:"
+	DeviceAbnormalOxygenConcentration = APP_NAME + ":device_abnormal_oxygen_concentration:"
+	DeviceSecret                      = APP_NAME + ":device_secret:"
+	DeviceSecretExpireTime            = 60 * 110
+	GatewayUpdateStatus               = APP_NAME + ":gateway_update_status:"
+	SceneOnTask                       = APP_NAME + ":scene_on_task:"
+	SceneHourTask                     = APP_NAME + ":scene_hour_task:"                    //小时任务
+	SceneHalfHourTask                 = APP_NAME + ":scene_half_hour_task:"               //半时任务
+	SceneMinuteTask                   = APP_NAME + ":scene_minute_task:"                  //分钟任务
+	SceneSecondTask                   = APP_NAME + ":scene_second_task:"                  //秒钟任务
+	SceneConditionRule                = APP_NAME + ":scene_condition_rule:"               //满足触发条件的rule_id
+	DeviceInterfaceGroupIgnoreTips    = APP_NAME + ":device_interface_group_ignore_tips:" //设施分组忽略提示
+	NongYiShiToken                    = APP_NAME + ":token:nongyishi_token:"              //农易施token
+	XinPuHuiLoginToken                = APP_NAME + ":token:xinpuhui_token:"               //新普惠token
+	DeviceWaterPumpOpenTime           = APP_NAME + ":device_water_pump_open_time:"        //水泵开启时间
+	GatewayMQTTUser                   = APP_NAME + ":gateway_mqtt_user:"                  //网关mqtt用户
+	ProductionStageToBeSaved          = APP_NAME + ":production_stage_to_be_saved:"       //待保存生产阶段
+	DemoDataCurrentKey                = APP_NAME + ":demo_data_current_key:"
+	DeviceAdminToken                  = APP_BASE_NAME + ":session:device_admin_token:"     // 设备管理后台token的key
+	QishuoSampleNowFlag               = APP_BASE_NAME + ":qishuo_sample_now_flag:"         // 旗硕水质设备立即采样标志位
+	OldDeviceAdminToken               = APP_BASE_NAME + ":session:old_device_admin_token:" // 老设备管理后台token的key
+	CloudSystemFlag                   = APP_BASE_NAME + ":session:cloud_system_flag:"      // 云服务器标识
+	MpAccessTokenKey                  = APP_NAME + ":mp_access_token_key:"                 // 小程序的access_token key
+	DeviceAdminConfig                 = APP_NAME + ":device_admin_config:"                 // 设备中台配置
+	OfflineHourKey                    = APP_NAME + ":offline_hour:"                        // 离线时间
+	CaiyunConfigKey                   = APP_NAME + ":caiyun:"                              // 彩云配置
+	GaodeKey                          = APP_NAME + ":gaode:"                               // 高德Key
+	MapKey                            = APP_NAME + ":mapkey:"                              // 地图key
+	IsPushTestData                    = APP_NAME + ":is_push_test_data:"                   // 是否推送测试数据
+	PushTestDataKey                   = APP_NAME + ":push_test_data_key:"                  // 推送模拟数据key
+	EmailLogin                        = APP_NAME + ":email_login:"                         // 邮箱登录
+	PhoneLogin                        = APP_NAME + ":phone_login:"                         // 手机号登录
+	SmsConfigKey                      = APP_NAME + ":sms_config:"                          // 短信配置key
+	EmailConfigKey                    = APP_NAME + ":email_config:"                        // 邮箱配置key
+	IsOnline                          = APP_NAME + ":is_online:"                           // 是否是线上，线上要加/api
+	AesKey                            = APP_NAME + ":aes_key:"                             // 加密key
+	AdminEmailKey                     = APP_NAME + ":admin_email_key:"                     // 管理员邮箱key
+	ScanLogin                         = APP_NAME + ":scan_login:"                          // 扫码登录key
+	ScanLoginStoreToken               = APP_NAME + ":scan_login_store_token:"              // 扫码存储token
+)

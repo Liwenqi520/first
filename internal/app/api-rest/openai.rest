@@ -1,0 +1,29 @@
+###
+POST  {{host}}/openai/chat-completions HTTP/1.1
+Content-Type: application/json
+Authorization: 2b3c13224fa6d73381418c9dce1ebbb5
+
+
+{
+   "message": "2025年ai行业前景如何"
+}
+
+###
+POST  {{host}}/openai/user-recharge HTTP/1.1
+Content-Type: application/json
+Authorization: 2b3c13224fa6d73381418c9dce1ebbb5
+
+
+{
+   "user_id": "1",
+   "amount": 10000
+}
+
+###
+POST  {{host}}/openai/completions HTTP/1.1
+Content-Type: application/json
+
+
+{
+   "message": "2025年做什么比较赚钱"
+}

@@ -1,0 +1,9 @@
+###
+POST {{host}}/user/login HTTP/1.1
+content-type:application/json
+
+{
+     "username":"admin",
+     "password":"XspO1jvG+COBg7AbE+IsMhfMl2/jRIGP3bH304Kg1NR1EgQNYsZIPUuhkrmNCSnL7aRnhcQbmTOb1++5V9iQVSl83LU4DElUPEn/I1jGIn90egqJfCzP/huiVkf0XkbpKJriwSujszf+dibh0cqFhRsk0fM0XhffvbEnG3tDmvWglP///R/HW24phse3a1VPf5Vqm8DmHyujqOWuf4JqMIs5UHmqmTbDzxDlWUNMQNy2TP6KY7/OI1KKWhSyUk5a6TGqx3JT+aT1hD6wRzfRZIdaEWwdtIVFy+gRTP2mR++On7f5gjuLMvWljvkv1rZ7M5vQE5IYnpI0TMg6VQuH/w=="
+
+}

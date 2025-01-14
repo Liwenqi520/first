@@ -1,0 +1,6 @@
+#[redis]连接地址
+redis:
+  host: "172.16.1.207"
+  port: "16380"
+  protocol: "tcp"
+  wait: true
