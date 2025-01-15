@@ -1,6 +1,7 @@
 module first
 
 go 1.22.6
+// go 1.16
 
 require (
 	github.com/Liwenqi520/errorx v0.0.0-20250113023710-aacf3469eb26

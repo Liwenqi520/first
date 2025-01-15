@@ -12,19 +12,19 @@ allow_methods:
 #[MySQL]连接地址
 mysql:
   debug: true
-  host: "172.16.1.207" #host
-  port: "13307" #连接端口
-  database: "brewing_sass" #数据库
-  username: "root" #用户名
-  password: "knmly98f5M5X2o3U" #密码
+  host: "" #host
+  port: "" #连接端口
+  database: "" #数据库
+  username: "" #用户名
+  password: "" #密码
   max_lifetime: 3600 #秒
   max_open_conns: 30
   max_idle_conns: 2
 
 #[redis]连接地址
 redis:
-  host: "172.16.1.207"
-  port: "16380"
+  host: ""
+  port: ""
   protocol: "tcp"
   wait: true
 
@@ -32,10 +32,10 @@ redis:
 time_zone: ""
 #开放接口参数设置
 nbi_device_service:
-  device_admin_url: "http://120.79.80.2:88"
-  device_admin_tcp_url: "http://120.79.80.2:85"
-  username: "root"
-  password: "root"
+  device_admin_url: ""
+  device_admin_tcp_url: ""
+  username: ""
+  password: ""
   type: "client"
   is_go_device_admin: true
   timeout: 10800
